@@ -100,6 +100,7 @@ Module Mod1
         Dim dec As XDeclaration = New XDeclaration("1.0", "utf-8", "")
         finaldoc.Declaration = dec
 
+        Console.WriteLine("done...")
         Console.WriteLine(finaldoc)
         Console.WriteLine(ISODate)
         finaldoc.Save("C:\Users\anne maier\Desktop\testXML\1203181.xml")
